@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://yangxk201396.github.io/Blog/sitemap.xml

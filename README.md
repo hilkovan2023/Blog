@@ -9,7 +9,8 @@
     git init
     方法一:
     git clone https://github.com/adityatelange/hugo-PaperMod.git --depth=1 themes/hugo-PaperMod (--depth=1)
-    从 themes/PaperMod 的 exampleSite 分支复制 content 到 Blog 目录
+    从 themes/PaperMod 的 exampleSite 分支复制各个文件到 Blog 目录
+    更新 .gitmodules 文件
     方法二:
     git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/hugo-PaperMod (--depth=1)
     (更新主题) git submodule update --remote --merge
